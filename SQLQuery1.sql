@@ -29,3 +29,11 @@ PRIMARY KEY (CodCliente, CodFita, DataEmp),
 FOREIGN KEY (CodCliente) REFERENCES Cliente(codigo),
 FOREIGN KEY (CodFita) references Fita(codigo)
 )
+/*Inserindo dados na tabela genero*/
+insert into genero values (1,'terror')
+
+insert into genero (nome, codigo) values (2, 'suspense')
+
+insert into genero values (3,'Policial'),
+(4,'Ficcaocientifica'), (5,'drama'), (6,'aventura'),
+(7,'infantil')
